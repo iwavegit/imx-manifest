@@ -26,6 +26,8 @@
   <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="ca27d12e4964d1336e662bcc60184bbff526c857"/>
 
   <project name="meta-imx" path="sources/meta-imx" remote="CAF" revision="a083ffbbc3f4d1c02b1542746784d7f641a75b60" upstream="zeus-5.4.24-2.1.0">
+    <linkfile dest="README-IMXBSP" src="README"/>
+  </project>
 
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="9e60d30669a2ad0598e9abf0cd15ee06b523986b"/>
   <project name="meta-python2" path="sources/meta-python2" remote="python2" revision="231c3d74cfcf734c3415e86ea8dd97f73ddced9d"/>
@@ -36,7 +38,6 @@
 
   <project remote="iwave" revision="94750e292dd5d6f0e4fb01f51f0bad5670ee895a" name="meta-iwave" path="sources/meta-iwave" >
     <linkfile src="tools/imx-setup-release.sh" dest="imx-setup-release.sh"/>
-    <linkfile dest="README-IMXBSP" src="README"/>
   </project>
 
   <project name="poky" path="sources/poky" remote="yocto" revision="cba967414370e195d109353e51510bd829aa86c3"/>
