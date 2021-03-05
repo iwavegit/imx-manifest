@@ -36,7 +36,7 @@
 
   <project name="poky" path="sources/poky" remote="yocto" revision="cba967414370e195d109353e51510bd829aa86c3"/>
 
-  <project remote="iwave" revision="40dbb89c0f7df90619a6dbb563875e9e633ffd52" name="meta-iwave" path="sources/meta-iwave">
+  <project remote="iwave" revision="16fe9635d08a3c72a281b0788aeb414f23a80847" name="meta-iwave" path="sources/meta-iwave">
     <linkfile dest="imx-setup-release.sh" src="tools/imx-setup-release.sh"/>
     <linkfile dest="README-IMXBSP" src="README"/>
   </project>
